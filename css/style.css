@@ -1,0 +1,102 @@
+*{
+    box-sizing:border-box;
+    ;
+}
+body{
+    margin:0;
+    background:url("https://backgrounddownload.com/wp-content/uploads/2018/09/terraria-forest-background.png");
+   background-repeat: no-repeat;
+   
+
+    
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+width: 320px;
+height: 620px;
+margin:120px auto 0;
+border:10px solid black;
+font-size:0;
+}
+#game{
+    display: flex;
+    display: inline;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 40px;
+    
+    margin: auto;
+
+}
+.cell{
+    width: 30px;
+    height: 30px;
+    border:1px solid black;
+    display: inline-block;
+   
+}
+.movingCell{
+    background-color: red;
+}
+.fixedCell{
+background-color: blue;
+}
+#next-tetro{
+    position: absolute;
+    
+      top:150px;
+    left: 600px;
+    font-size:0;
+}
+.menu{
+width: 400px;
+height: 10px;
+position: absolute;
+margin-left:800px;
+top: 0;
+
+
+}
+#start{
+    margin-top: 80px;
+    margin-right: 22%;
+    width: 100px;
+    font-family: 'Alfa Slab One',
+    cursive;
+}
+#pause{
+width: 120px;
+font-family: 'Alfa Slab One',
+cursive;
+}
+.level-score{
+ width: 200px;
+ position: absolute;
+ top:15%;
+ font-family: 'Alfa Slab One',cursive;
+  text-shadow: #000 2px 0px 2px;
+ left:65%;
+}
+#game-over{
+    font-size: 150px;
+    color:rgba(98, 255, 7, 0.993);
+    text-shadow: #000 2px 0px 2px;
+    text-align: center;
+    display: none;
+    position: absolute;;
+    top: 35%;
+    font-family: 'Metal Mania',cursive;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+table{
+       font-family: 'Metal Mania',
+       cursive;
+    left: 1150px;
+    top: 450px;
+  font-size: 30px;
+    position: absolute;
+text-align: center;
+
+}
